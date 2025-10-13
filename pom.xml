@@ -36,7 +36,21 @@
 		</dependency>
 
 	</dependencies>
+   <distributionManagement>
 
+            <repository>
+              <id>nexus</id>
+              <name>Mani Devops Releases Nexus Repository</name>
+              <url>http://65.1.86.43:8081/repository/jio-release/</url>
+            </repository>
+
+            <snapshotRepository>
+              <id>nexus</id>
+              <name>Mani Devops Snapshot Nexus Repository </name>
+              <url>http://65.1.86.43:8081/repository/jio-snapshot/</url>
+            </snapshotRepository>
+
+        </distributionManagement>
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
