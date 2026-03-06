@@ -41,13 +41,13 @@
             <repository>
               <id>nexus</id>
               <name>MANIKYAM Releases Nexus Repository</name>
-              <url>http://54.160.237.46:8081/repository/maven-releases/</url>
+              <url>http://54.160.237.46:8081/repository/maven-release/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>MANIKYAM Snapshot Nexus Repository </name>
-              <url>http://54.160.237.46:8081/repository/maven-snapshots/</url>
+              <url>http://54.160.237.46:8081/repository/mvn-snapshot/</url>
             </snapshotRepository>
 
         </distributionManagement>
