@@ -18,7 +18,7 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://34.224.60.162:9000/</sonar.host.url>
+		<sonar.host.url>http://54.196.233.16:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>mani</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,13 +41,13 @@
             <repository>
               <id>nexus</id>
               <name>MANIKYAM Releases Nexus Repository</name>
-              <url>http://54.160.237.46:8081/repository/maven-release/</url>
+              <url>http://54.221.11.142:8081/repository/mvn-releases/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>MANIKYAM Snapshot Nexus Repository </name>
-              <url>http://54.160.237.46:8081/repository/mvn-snapshot/</url>
+              <url>http://54.221.11.142:8081/repository/mvn-snapshots/</url>
             </snapshotRepository>
 
         </distributionManagement>
