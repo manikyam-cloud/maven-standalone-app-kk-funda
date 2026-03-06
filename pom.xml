@@ -4,7 +4,7 @@
 
 	<groupId>com.kk</groupId>
 	<artifactId>maven-standalone-application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>maven-standalone-application</name>
@@ -44,11 +44,11 @@
               <url>http://54.160.237.46:8081/repository/maven-release/</url>
             </repository>
 
-            <!-- <snapshotRepository>
+            <snapshotRepository>
               <id>nexus</id>
               <name>MANIKYAM Snapshot Nexus Repository </name>
               <url>http://54.160.237.46:8081/repository/mvn-snapshot/</url>
-            </snapshotRepository> -->
+            </snapshotRepository>
 
         </distributionManagement>
 
